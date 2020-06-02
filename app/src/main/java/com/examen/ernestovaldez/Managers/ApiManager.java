@@ -22,7 +22,7 @@ public class ApiManager {
         OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
         httpClient.addInterceptor(logging);
 
-        String baseUrl = "https://sistema.globalpaq.net/api/v2/public/";
+        String baseUrl = "https://sistema.globalpaq.mx/api/v2/public/";
 
         if (API_SERVICE == null) {
             Retrofit retrofit = new Retrofit.Builder()
